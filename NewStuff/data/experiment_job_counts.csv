@@ -1,0 +1,5 @@
+attack_vector,jobs,pneumothorax,pleural_effusion,cardiomegaly
+control,100,34,33,33
+user_prompt,100,34,33,33
+system_prompt,100,34,33,33
+image_channel,100,34,33,33

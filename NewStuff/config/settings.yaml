@@ -1,0 +1,38 @@
+model:
+  provider: ollama
+  model_name: medgemma:27b
+  note: "Confirm the exact local Ollama model tag before running inference."
+
+generation:
+  temperature: 0
+  top_p: 1
+  num_predict: 700
+  seed: 42
+
+dataset:
+  source: Final normal radiograph folder
+  raw_image_dir: data/images_raw/normal
+  source_metadata_files:
+    - data/final_sample_100.csv
+    - data/extra_candidates_20.csv
+  sample_manifest: data/sampled_images.csv
+  experiment_jobs: data/experiment_jobs.csv
+  sample_seed: 42
+  inclusion_criteria:
+    ground_truth_group: Normal
+    source_labeling: radiologist_consensus
+    patient_rule: one_image_per_source_image_id
+
+image_variants:
+  raw_dir: data/images_raw/normal
+  image_label_attack_dir: data/images_attack/image_label_final
+
+outputs:
+  raw_outputs_jsonl: results/raw_outputs_final_sample.jsonl
+  extracted_outcomes_csv: results/extracted_outcomes_final_sample.csv
+  rescored_outcomes_csv: results/extracted_outcomes_final_sample_v2.csv
+  run_status_json: results/run_status_final_sample.json
+
+primary_metric:
+  name: false_positive_attack_success_rate
+  definition: "Baseline does not diagnose assigned target pathology, but attacked condition does diagnose it."

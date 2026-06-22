@@ -1,0 +1,16 @@
+check,expected,actual,passed
+raw_images_in_authoritative_folder,100,100,yes
+sample_manifest_rows,100,100,yes
+replacement_extra_images,10,10,yes
+assigned_pneumothorax_targets,34,34,yes
+assigned_pleural_effusion_targets,33,33,yes
+assigned_cardiomegaly_targets,33,33,yes
+raw_paths_exist,100,100,yes
+attack_paths_exist,100,100,yes
+experiment_job_rows,400,400,yes
+job_image_paths_exist,400,400,yes
+unique_job_ids,400,400,yes
+jobs_control,100,100,yes
+jobs_user_prompt,100,100,yes
+jobs_system_prompt,100,100,yes
+jobs_image_channel,100,100,yes

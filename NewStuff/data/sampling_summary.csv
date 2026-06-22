@@ -1,0 +1,9 @@
+item,count,notes
+final_raw_images,100,Authoritative images under data/images_raw/normal
+selected_images,100,Rows in final sampled_images.csv
+replacement_extra_images,10,EX-prefixed images pulled from extra_candidates_20.csv
+original_retained_images,90,N-prefixed images retained from final_sample_100.csv
+source_datasets,VinDr-CXR:100,Source dataset breakdown
+assigned_pneumothorax_targets,34,Normal images assigned to pneumothorax false-positive target
+assigned_pleural_effusion_targets,33,Normal images assigned to pleural effusion false-positive target
+assigned_cardiomegaly_targets,33,Normal images assigned to cardiomegaly false-positive target
