@@ -1,0 +1,33 @@
+.DS_Store
+Thumbs.db
+
+# Local Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Large source datasets and generated image folders
+NewStuff/archive/
+NewStuff/data/images_raw/
+NewStuff/data/images_attack/
+
+# Raw model outputs and local run state
+NewStuff/results/raw_outputs*.jsonl
+NewStuff/results/run_status*.json
+NewStuff/results/review_dashboard.html
+NewStuff/results/radiologist_review.csv
+
+# Generated reports/figures kept locally unless explicitly selected
+NewStuff/results/figures/
+NewStuff/output/
+attack_figs/
+
+# Local/temp files
+*.log
+*.tmp
+*.bak
