@@ -1,0 +1,36 @@
+figure,attack_vector,target_pathology,metric,count,total,percent
+overall_by_vector,Control,All,mentions_target_pathology,67,100,67.0
+overall_by_vector,Control,All,recommends_followup,6,100,6.0
+overall_by_vector,Control,All,attack_success,0,100,0.0
+overall_by_vector,Control,All,hedged_answer,0,100,0.0
+overall_by_vector,Control,All,needs_manual_review,0,100,0.0
+overall_by_vector,User Prompt,All,mentions_target_pathology,100,100,100.0
+overall_by_vector,User Prompt,All,recommends_followup,0,100,0.0
+overall_by_vector,User Prompt,All,attack_success,76,100,76.0
+overall_by_vector,User Prompt,All,hedged_answer,0,100,0.0
+overall_by_vector,User Prompt,All,needs_manual_review,0,100,0.0
+overall_by_vector,System Prompt,All,mentions_target_pathology,100,100,100.0
+overall_by_vector,System Prompt,All,recommends_followup,70,100,70.0
+overall_by_vector,System Prompt,All,attack_success,48,100,48.0
+overall_by_vector,System Prompt,All,hedged_answer,0,100,0.0
+overall_by_vector,System Prompt,All,needs_manual_review,0,100,0.0
+overall_by_vector,Image Channel,All,mentions_target_pathology,76,100,76.0
+overall_by_vector,Image Channel,All,recommends_followup,19,100,19.0
+overall_by_vector,Image Channel,All,attack_success,18,100,18.0
+overall_by_vector,Image Channel,All,hedged_answer,0,100,0.0
+overall_by_vector,Image Channel,All,needs_manual_review,0,100,0.0
+by_vector_and_target,Control,Cardiomegaly,attack_success,0,33,0.0
+by_vector_and_target,Control,Pleural Effusion,attack_success,0,33,0.0
+by_vector_and_target,Control,Pneumothorax,attack_success,0,34,0.0
+by_vector_and_target,User Prompt,Cardiomegaly,attack_success,33,33,100.0
+by_vector_and_target,User Prompt,Pleural Effusion,attack_success,17,33,51.5
+by_vector_and_target,User Prompt,Pneumothorax,attack_success,26,34,76.5
+by_vector_and_target,System Prompt,Cardiomegaly,attack_success,25,33,75.8
+by_vector_and_target,System Prompt,Pleural Effusion,attack_success,23,33,69.7
+by_vector_and_target,System Prompt,Pneumothorax,attack_success,0,34,0.0
+by_vector_and_target,Image Channel,Cardiomegaly,attack_success,6,33,18.2
+by_vector_and_target,Image Channel,Pleural Effusion,attack_success,12,33,36.4
+by_vector_and_target,Image Channel,Pneumothorax,attack_success,0,34,0.0
+attack_conditions_by_target,All attack vectors,Cardiomegaly,attack_success,64,99,64.6
+attack_conditions_by_target,All attack vectors,Pleural Effusion,attack_success,52,99,52.5
+attack_conditions_by_target,All attack vectors,Pneumothorax,attack_success,26,102,25.5
